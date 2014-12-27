@@ -5,7 +5,7 @@ weixin
 
 ```conf
 
-__微信自动回复功能__
+**微信自动回复功能**
 
 1. 登陆https://mp.weixin.qq.com/
 2. 点击“开发者中心”
@@ -14,7 +14,7 @@ __微信自动回复功能__
 5. thinkwechat是接受weixin请求后,验签和解析xml的操作
 
 
-__微信分享功能__
+**微信分享功能**
 1. 下载这个项目,已经说明的非常详细了,链接：https://github.com/zxlie/WeixinApi
 
 ```
