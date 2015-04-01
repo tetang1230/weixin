@@ -18,11 +18,17 @@ class ThinkWechat
         $this->auth($token) || exit('lost token');
 
         if (isset($_SERVER['REQUEST_METHOD']) && 'get' == strtolower($_SERVER['REQUEST_METHOD']))
-        {
+        {   //get方法用于验证微信请求合法性
+            //本类中auth方法就是验证的细节
+            //下面的post请求用户获取微信post过来的用户相关信息(一个xml文件)
+            //例如url:
+            //http://xxoo.apps.xxoo.com/wechat/event201411?timestamp=12341243123&nonce=12341234&signature=12341
+            //验证请求合法性通过get方法,然后向这个url postxml数据
             exit(isset($_GET['echostr']) ? $_GET['echostr'] : 'lost echostr');
         }
         else
         {
+            //接受微信post过来的xml信息
             $xml = file_get_contents("php://input");
             $xml = new SimpleXMLElement($xml);
             $xml || exit('NO input');
