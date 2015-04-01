@@ -11,7 +11,7 @@ weixin
 2. 点击“开发者中心”
 3. 设置微信调用url,token
 
-![image](https://github.com/tetang1230/weixin/raw/master/screenshots/vim-screenshot.jpg)
+![https://github.com/tetang1230/weixin/blob/master/pics/peizhi1.jpg]
 
 4. 以yaf框架为例,wechat.php中的Event201408 action去接受微信服务器的调用,这个action的url你要配置到微信公众后台
 5. thinkwechat是接受weixin请求后,验签和解析xml的操作
