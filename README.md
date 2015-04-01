@@ -16,7 +16,6 @@ weixin
 微信分享功能
 
 1. 下载这个项目,已经说明的非常详细了,链接：https://github.com/zxlie/WeixinApi
-
 ```
 
 
