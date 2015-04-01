@@ -19,9 +19,9 @@ weixin
 ```
 
 
-![接口配置info](https://github.com/tetang1230/weixin/blob/master/pics/peizhi1.jpg)
+![接口配置info](https://github.com/tetang1230/weixin/blob/master/pics/pz1.jpg)
 
-在设置url,token 提交之前,验证程序就要部署好,如下：
+在设置url,token 提交之前,验证程序就要部署好,以便weixin发过来请求验证。如下：
 
 ```php
 <?php
