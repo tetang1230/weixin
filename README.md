@@ -23,7 +23,7 @@ weixin
 
 在设置url,token 提交之前,验证程序就要部署好,以便weixin发过来请求验证。即jcwx.php需要添加本例中的程序：
 
-http://yourURL/wechat/Event201408,此url同时接受微信的get请求和post请求
+http://yourURL/wechat/Event201408,此url同时接受微信的get请求(验证weixin请求)和post请求(如果验证通过就接受post请求过来的xml信息)
 ```php
 $weixin = new ThinkWechat($token);
 /* 获取请求信息 */
