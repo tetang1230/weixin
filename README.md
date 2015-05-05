@@ -15,7 +15,8 @@ weixin
 
 微信分享功能
 
-1. 下载这个项目,已经说明的非常详细了,链接：https://github.com/zxlie/WeixinApi,现在官网已经开放api了,这个项目没必要参考了
+1 分享的时候要把url在微信中(手机测试)打开(即weixin的webview中),这样才能正确的分享
+
 ```
 
 
