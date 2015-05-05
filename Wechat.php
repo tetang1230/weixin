@@ -42,6 +42,7 @@ class WeChatController extends Yaf_Controller_Abstract
 
             // 下放激活码
             // 以下是你自己的相关业务逻辑,例如发码
+            // 我们是提前把激活码放到数据库了
             $event_data = AppEvent201408Model::getEventCode($req_data);
             if (false === $event_data)
             {
