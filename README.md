@@ -32,7 +32,7 @@ https://open.weixin.qq.com/connect/oauth2/authorize?appid=APPID&redirect_uri=RED
   
   这里给出一个示例url
   
-  https://open.weixin.qq.com/connect/oauth2/authorize?appid=YOUR_APP_ID&redirect_uri=http://182.92.220.196/jichao/pageauth.php&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect
+  https://open.weixin.qq.com/connect/oauth2/authorize?appid=YOUR_APP_ID&redirect_uri=http://182.92.220.196/jichao/pageauth_sample.php&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect
   
 
 2 用户同意授权后
@@ -43,7 +43,7 @@ code说明 ：
 code作为换取access_token的票据，每次用户授权带上的code将不一样，code只能使用一次，5分钟未被使用自动过期。
 
 
-这样我们就能拿到code的值了,接下来直接看我的pageauth.php，就明白了，最后返回用户信息的结果如下图
+这样我们就能拿到code的值了,接下来直接看我的pageauth_sample.php，就明白了，最后返回用户信息的结果如下图
 
 具体的网页授权的相关文档,请看登陆微信公共平台后台,公众平台开发者文档->用户管理->网页授权获取网页基本信息
 
