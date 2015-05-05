@@ -43,13 +43,14 @@ code说明 ：
 code作为换取access_token的票据，每次用户授权带上的code将不一样，code只能使用一次，5分钟未被使用自动过期。
 
 
-这样我们就能拿到code的值了,接下来直接看我的pageauth.php，就明白了，最后返回的结果如下
-
-![接口配置info](https://github.com/tetang1230/weixin/blob/master/pics/weixinpageauth.jpg)
+这样我们就能拿到code的值了,接下来直接看我的pageauth.php，就明白了，最后返回用户信息的结果如下图
 
 具体的网页授权的相关文档,请看登陆微信公共平台后台,公众平台开发者文档->用户管理->网页授权获取网页基本信息
 
 ```
+
+![接口配置info](https://github.com/tetang1230/weixin/blob/master/pics/weixinpageauth.jpg)
+
 
 
 ![接口配置info](https://github.com/tetang1230/weixin/blob/master/pics/pz1.jpg)
