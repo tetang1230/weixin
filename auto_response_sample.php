@@ -13,7 +13,7 @@ do
         if('event' == $req_data['MsgType'] && 'subscribe' == $req_data['Event'])
         {
                 $content  = '感谢关注XXOO，精彩内容与大家分享～～' . "\n";
-                $content .= '发送“keyword1”或“keyword2”即刻参与活动！';
+                $content .= '发送1或2即刻参与活动！';
                 break;
         }
         // 处理用户发送的内容
